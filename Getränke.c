@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+
+int einwurf=0;
+printf("Getraenke Automat | Bitte werfen sie 1 Euro ein: ");
+scanf("%d", &einwurf);
+
+if(einwurf == 1) {
+	printf("\nVielen Dank, bitte entmehmen sie ihr Getraenk.\n");
+}else{
+	printf("\nSie haben kein 1 Euro Stueck eingeworfen.\n");
+}
+
+return 0;
+
+} 
+
