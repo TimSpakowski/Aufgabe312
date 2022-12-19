@@ -17,7 +17,7 @@ int main(){
 	printf("\n Geben sie die gewünschte Menge ein: ");
 	scanf("%d", &Menge);
 	
-	float Preis = 0;
+	float Preis = 0.0;
 	
 	//überprüfe Auswahl
  
