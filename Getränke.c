@@ -23,7 +23,7 @@ int main(){
  
 	switch(auswahl){  
 		case 1: Preis = 0.5 * Menge;
-			printf("\n Bitte werfen Sie %f Euro ein: ", &Preis);
+			printf("\n Bitte werfen Sie %f Euro ein: ", Preis);
 			scanf("%f",&einwurf);
 			if(einwurf == Preis){
 				printf("\n Vielen Dank, bitte entnehmen Sie ihr Getränk.\n\n");
@@ -33,7 +33,7 @@ int main(){
 			}
 		break;
 		case 2: Preis = 1 * Menge;
-			printf("\n Bitte werfen Sie %f Euro ein: ", &Preis);
+			printf("\n Bitte werfen Sie %f Euro ein: ", Preis);
 			scanf("%f",&einwurf);
 			if(einwurf == Preis){
 				printf("\n Vielen Dank, bitte entnehmen Sie ihr Getränk.\n\n");
@@ -41,7 +41,7 @@ int main(){
 				printf("\n False!\n\n");
 		break;
 		case 3: Preis = 2 * Menge;
-			printf("\n Bitte werfen Sie %f Euro ein: ", &Preis);
+			printf("\n Bitte werfen Sie %f Euro ein: ", Preis);
 			
 
 			scanf("%f",&einwurf);
